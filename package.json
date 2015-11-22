@@ -1,0 +1,23 @@
+{
+  "name": "electron-editor-example",
+  "version": "1.0.0",
+  "description": "Simple code editor example build with Ace and Electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjaniszew/electron-editor-example.git"
+  },
+  "author": "Michal Janiszewski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjaniszew/electron-editor-example/issues"
+  },
+  "homepage": "https://github.com/mjaniszew/electron-editor-example#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.1"
+  }
+}
